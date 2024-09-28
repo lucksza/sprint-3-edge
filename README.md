@@ -1,6 +1,6 @@
 Video: https://youtu.be/-2Mqif16hiE
 
-
+Integrante:Lucca Saraiva Borges // rm:554608
 
 # Sistema de Telemetria IoT para Carros de Fórmula-E
 
@@ -66,9 +66,29 @@ Este projeto visa desenvolver um sistema de telemetria em tempo real utilizando 
 - **Ferramentas de Análise Avançada**: Implementação de algoritmos de machine learning para prever o desempenho com base nos dados de telemetria.
 - **API Pública**: Oferecer uma API pública para que outros desenvolvedores possam criar aplicativos baseados nos dados da telemetria.
 
+
+Com base na imagem, a seção de "Códigos Fonte" deve incluir os códigos desenvolvidos e os arquivos necessários para o funcionamento da aplicação e sua replicação. Aqui está um exemplo de como você pode atualizar essa seção no README:
+
 ---
 
 ## Códigos Fonte
 
-Os códigos necessários para a implementação do servidor back-end, a interface front-end, e a comunicação com os sensores IoT estão incluídos neste repositório. Siga as instruções de instalação e configuração para replicar o sistema.
+Este repositório contém todos os códigos-fonte necessários para o funcionamento e a replicação do sistema de telemetria IoT para carros de Fórmula-E. A estrutura do projeto inclui:
+
+- **Back-end**: Contém o código-fonte do servidor, responsável pelo processamento dos dados de telemetria recebidos dos sensores IoT e pela disponibilização desses dados via API.
+  - Diretório: `/backend`
+  - Arquivos:
+    - `server.js`: Código principal do servidor que coleta e processa os dados.
+    - `routes.js`: Gerencia as rotas da API para o front-end.
+    - `database.js`: Configuração do banco de dados (MongoDB ou MySQL).
+
+- **Front-end**: A interface de usuário desenvolvida em React.js, que exibe os dados de telemetria em tempo real através de dashboards interativos.
+  - Diretório: `/frontend`
+  - Arquivos:
+    - `App.js`: Componente principal do React que organiza a exibição dos dados.
+    - `Dashboard.js`: Componente de visualização gráfica dos dados de velocidade, temperatura e bateria.
+    - `styles.css`: Arquivo de estilo responsável pela aparência visual da aplicação.
+
+- **Scripts de Instalação e Configuração**: Scripts para facilitar a instalação das dependências e configuração do ambiente.
+  - `package.json`: Contém as dependências do Node.js para o back-end e front-end.
 
